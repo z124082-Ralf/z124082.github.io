@@ -26,6 +26,11 @@ header {
     padding-top: 16px;
 }
 
+.sidebar img{
+    width: 100%;
+
+}
+
 /* Sidebar links */
 .sidebar a {
     padding: 6px 8px 6px 16px;
@@ -94,6 +99,8 @@ body {
                 margin-right: 2em;
                 margin-left: 8em;
                 border-radius: 50%;
+                width: 225px;
+               
              
             }
 
@@ -221,6 +228,13 @@ body {
         .education {
             h2{
                 margin-top: 500px;
+            }
+            h4{
+                text-align: center;
+                margin-top: 50px;
+            }
+            img{
+                margin-top: auto;
             }
             .education_cards {
                 display: flex;
