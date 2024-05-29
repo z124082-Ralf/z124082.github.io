@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+/* BODY */
+body {
+    background: url(images/Background.jpg);
+
+
+    /* main "content" styles */
+    main {
+        font-family: 'Stint Ultra Expanded', Georgia, serif;
+        background-color: white;
+        line-height: 1.8em;
+        color: #555;
+        padding: 1em;
+        border: double 4px #EADDC4;
+        margin: 2.5%;
+        grid-area: main;
+
+
+        h1 {
+            text-align: center;
+        }
+
+        a {
+            background-color: #04AA6D; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            justify-content: center;
+            font-size: 16px;
+            display: flex;
+            position: auto;
+        }
+        
+}
